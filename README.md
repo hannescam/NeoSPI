@@ -7,7 +7,7 @@ make
 ```
 - run:
 ```
-./examples/NeoSPI_Standarttest /dev/spidev0.0
+./example/NeoSPI_Standarttest /dev/spidev0.0
 ```
 - clean:
 ```

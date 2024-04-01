@@ -14,4 +14,6 @@ make
 make clean
 ```
 - If you want to drive more than 170 LEDs it is necesary to increase the SPI buffer size using ```spidev.bufsiz=65536``` in the kernel command line
-- SPI C/C++ code template: https://forums.raspberrypi.com/viewtopic.php?t=304828#p1824960
+- Credits
+	- SPI C/C++ code: https://forums.raspberrypi.com/viewtopic.php?t=304828#p1824960
+	- Example code: https://github.com/adafruit/Adafruit_NeoPixel

@@ -112,7 +112,7 @@ void NeoSPI::fillStripRGB(uint8_t r = 0, uint8_t g = 0, uint8_t b = 0)
 // Set the color of a specific pixel
 bool NeoSPI::setPixelRGB(uint8_t r, uint8_t g, uint8_t b, int pos)
 {
-  if (pos > numPixels) return false; // Return false if the LED doesn't exist
+  if (pos >= numPixels) return false; // Return false if the LED doesn't exist
   Color newColor;
   newColor.r = r;
   newColor.g = g;
@@ -129,7 +129,7 @@ void NeoSPI::fillStrip(Color newColor)
 // Set the color of a specific pixel
 bool NeoSPI::setPixel(Color newColor, int pos)
 {
-  if (pos > numPixels) return false; // Return false if the LED doesn't exist
+  if (pos >= numPixels) return false; // Return false if the LED doesn't exist
   stripState.at(pos) = newColor; // Saving the changes to the middle-man-buffer
   return true; // If the length isn't larger than the amount of LEDs on the strip return true
 }

@@ -22,3 +22,4 @@ make clean
 - Credits
 	- SPI C/C++ code: https://forums.raspberrypi.com/viewtopic.php?t=304828#p1824960
 	- Example code: https://github.com/adafruit/Adafruit_NeoPixel
+# THIS REPO GOT MOVED TO GITLAB: [NeoSPI](https://gitlab.com/hannescam/NeoSPI)
